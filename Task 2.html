@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+
+    }
+
+    th,
+    td {
+      border: 3px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .row {
+      background-color: rgba(102, 100, 100, 0.247);
+    }
+  </style>
+  <title>TASK-2</title>
+</head>
+
+<body>
+  <div class="container">
+    <table>
+      <tr class="row">
+        <th>Sr. No.</th>
+        <th>TIME</th>
+        <th colspan="2">MON</th>
+        <th colspan="2">TUE</th>
+        <th colspan="2">WED</th>
+        <th colspan="2">THU</th>
+        <th colspan="2">FRI</th>
+        <th>SAT(1<sup>st</sup>, 3<sup>rd</sup>, 5<sup>th</sup>)</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>07:30 - 08:30</td>
+        <td rowspan="2"><b>A<br>SE<br>NG</b></td>
+        <td rowspan="2" class="row"><b>B<br>WT<br>TCC</b></td>
+        <td rowspan="2"><b>A<br>AJ<br>ANR</b></td>
+        <td rowspan="2" class="row"><b>B<br>DNT<br>PPB</b></td>
+        <td rowspan="2"><b>A<br>DCDR<br>PJM</b></td>
+        <td rowspan="2" class="row"><b>B<br>SE<br>NJ</b></td>
+        <td rowspan="2"><b>A<br>WT<br>TCC</b></td>
+        <td rowspan="2" class="row"><b>B<br>AJ<br>ANR</b></td>
+        <td rowspan="2"><b>A<br>DNT<br>PPB</b></td>
+        <td rowspan="2" class="row"><b>B<br>DCDR<br>PJM</b></td>
+        <td rowspan="2">SE<br>NJ</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>07:30 - 08:30</td>
+      </tr>
+      <tr class="row">
+        <td></td>
+        <td><b>09:30 - 09:40</b></td>
+        <td colspan="11"><b>TEA BREAK</b></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>09:40 - 10:40</td>
+        <td colspan="2">WT<br>TCC</td>
+        <td colspan="2">SE<br>NJ</td>
+        <td colspan="2">DNT<br>PPB</td>
+        <td colspan="2">WT<br>TCC</td>
+        <td colspan="2">DNT<br>PPB</td>
+        <td rowspan="2">WT<br>TCC</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>10:40 - 11:35</td>
+        <td colspan="2">DCDR<br>PJM</td>
+        <td colspan="2">WT<br>TCC</td>
+        <td colspan="2">SE<br>NJ</td>
+        <td colspan="2">AJ<br>ANR</td>
+        <td colspan="2">DCDR<br>PJM</td>
+      </tr>
+      <tr class="row">
+        <td></td>
+        <td><b>11:35 - 11:55</b></td>
+        <td colspan="11"><b>TEA BREAK</b></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>11:55 - 12:55</td>
+        <td colspan="2">DNT<br>PPB</td>
+        <td colspan="2" rowspan="2">AJ<br>JBT<br>LAB13</td>
+        <td colspan="2">AJ<br>ANR</td>
+        <td colspan="2">DNT<br>PPB</td>
+        <td colspan="2">DCDR<br>PJM</td>
+        <td rowspan="2">DE - IIB<br>PJM</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>12:55 - 1:50</td>
+        <td colspan="2">SE<br>NJ</td>
+        <td colspan="2">CRP-SS<br>RM</td>
+        <td colspan="2">CRP-QA<br>PK</td>
+        <td colspan="2">AJ<br>ANR</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

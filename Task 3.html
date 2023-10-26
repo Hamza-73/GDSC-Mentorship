@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .container h1{
+            margin-bottom: 8px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .form input{
+            color: grey;
+            height: 2rem;
+            margin: 10px 0px;
+            border-radius: 14px;
+            border: 1px solid rgb(240, 235, 235);
+            background-color: rgb(240, 235, 235);
+            text-indent: 10px;
+        }
+        .btn{
+            height: 2rem;
+            border-radius: 14px;
+            background-color: rgb(165, 165, 219);
+            border: 1px solid  rgb(165, 165, 219);
+        }
+        .check{
+            display: flex;
+            flex-direction: row;
+        }
+        .check small{
+            position: relative;
+            margin-top: 18px;
+            margin-left: 5px;
+        }
+        @media (max-width:700px) {
+            .name input{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+            <form action="" class="form">
+                <div class="name">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="phone" placeholder="Phone Number">
+                <input type="text" placeholder="Practice Field">
+                <input type="text" placeholder="Role">
+                <div class="check">
+                    <input type="checkbox" >
+                    <small>You agree to out Terms and conditions</small>
+                </div>
+                <button class="btn">Send</button>
+            </form>
+    </div>
+</body>
+</html>
